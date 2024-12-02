@@ -53,8 +53,10 @@
         <mxCell id="7TrNmhmVkbIryDcWJuiU-30" value="เท็จ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="120" y="312.5" width="40" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="7TrNmhmVkbIryDcWJuiU-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7TrNmhmVkbIryDcWJuiU-31" target="7TrNmhmVkbIryDcWJuiU-36">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="7TrNmhmVkbIryDcWJuiU-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7TrNmhmVkbIryDcWJuiU-31" target="7TrNmhmVkbIryDcWJuiU-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="234" y="490" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="7TrNmhmVkbIryDcWJuiU-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7TrNmhmVkbIryDcWJuiU-31" target="7TrNmhmVkbIryDcWJuiU-38">
           <mxGeometry relative="1" as="geometry" />
@@ -62,17 +64,11 @@
         <mxCell id="7TrNmhmVkbIryDcWJuiU-31" value="บรรทัดนี้มี () หรือไม่" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="60" y="460" width="133" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7TrNmhmVkbIryDcWJuiU-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7TrNmhmVkbIryDcWJuiU-36" target="7TrNmhmVkbIryDcWJuiU-38">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="7TrNmhmVkbIryDcWJuiU-36" value="กด spacebar หลัง&amp;nbsp;&lt;div&gt;&quot;(&quot; และ หน้า &quot;)&quot; 1 ครั้ง&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="234" y="467.5" width="163.5" height="45" as="geometry" />
-        </mxCell>
         <mxCell id="7TrNmhmVkbIryDcWJuiU-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7TrNmhmVkbIryDcWJuiU-38" target="7TrNmhmVkbIryDcWJuiU-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7TrNmhmVkbIryDcWJuiU-38" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="111.5" y="570" width="30" height="30" as="geometry" />
+          <mxGeometry x="111.5" y="650" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7TrNmhmVkbIryDcWJuiU-41" value="จริง" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="186.5" y="467.5" width="40" height="30" as="geometry" />
@@ -87,25 +83,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7TrNmhmVkbIryDcWJuiU-45" value="บรรทัดนี้มี [] หรือไม่" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="670" width="133" height="60" as="geometry" />
+          <mxGeometry x="60" y="720" width="133" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7TrNmhmVkbIryDcWJuiU-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7TrNmhmVkbIryDcWJuiU-47" target="7TrNmhmVkbIryDcWJuiU-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7TrNmhmVkbIryDcWJuiU-47" value="กด spacebar&amp;nbsp;&lt;div&gt;หลัง&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;[&quot; 1 ครั้ง&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="234" y="677.5" width="163.5" height="45" as="geometry" />
+          <mxGeometry x="234" y="727.5" width="163.5" height="45" as="geometry" />
         </mxCell>
         <mxCell id="7TrNmhmVkbIryDcWJuiU-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7TrNmhmVkbIryDcWJuiU-48" target="7TrNmhmVkbIryDcWJuiU-54">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7TrNmhmVkbIryDcWJuiU-48" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="111.5" y="800" width="30" height="30" as="geometry" />
+          <mxGeometry x="111.5" y="850" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7TrNmhmVkbIryDcWJuiU-49" value="จริง" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="186.5" y="677.5" width="40" height="30" as="geometry" />
+          <mxGeometry x="186.5" y="727.5" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7TrNmhmVkbIryDcWJuiU-50" value="เท็จ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="120" y="722.5" width="40" height="30" as="geometry" />
+          <mxGeometry x="120" y="772.5" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7TrNmhmVkbIryDcWJuiU-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7TrNmhmVkbIryDcWJuiU-54" target="7TrNmhmVkbIryDcWJuiU-56">
           <mxGeometry relative="1" as="geometry" />
@@ -114,34 +110,49 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7TrNmhmVkbIryDcWJuiU-54" value="บรรทัดนี้มี {} หรือไม่" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="860" width="133" height="60" as="geometry" />
+          <mxGeometry x="60" y="910" width="133" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7TrNmhmVkbIryDcWJuiU-64" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7TrNmhmVkbIryDcWJuiU-56" target="7TrNmhmVkbIryDcWJuiU-62">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7TrNmhmVkbIryDcWJuiU-56" value="กด spacebar หน้า และ หลังของ&amp;nbsp;&lt;div&gt;&quot;{&quot;&amp;nbsp; 1 ครั้ง&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="234" y="867.5" width="196" height="45" as="geometry" />
+          <mxGeometry x="234" y="917.5" width="196" height="45" as="geometry" />
         </mxCell>
         <mxCell id="7TrNmhmVkbIryDcWJuiU-57" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="111.5" y="1010" width="30" height="30" as="geometry" />
+          <mxGeometry x="111.5" y="1060" width="30" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7TrNmhmVkbIryDcWJuiU-58" value="จริง" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="186.5" y="867.5" width="40" height="30" as="geometry" />
+          <mxGeometry x="186.5" y="917.5" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7TrNmhmVkbIryDcWJuiU-59" value="เท็จ" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="120" y="912.5" width="40" height="30" as="geometry" />
+          <mxGeometry x="120" y="962.5" width="40" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7TrNmhmVkbIryDcWJuiU-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7TrNmhmVkbIryDcWJuiU-62" target="7TrNmhmVkbIryDcWJuiU-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7TrNmhmVkbIryDcWJuiU-62" value="กด spacebar หน้า และ หลังของ&amp;nbsp;&lt;div&gt;&quot;}&quot;&amp;nbsp; 1 ครั้ง&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="234" y="950" width="196" height="45" as="geometry" />
+          <mxGeometry x="234" y="1000" width="196" height="45" as="geometry" />
         </mxCell>
         <mxCell id="7TrNmhmVkbIryDcWJuiU-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7TrNmhmVkbIryDcWJuiU-66" target="7TrNmhmVkbIryDcWJuiU-48">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7TrNmhmVkbIryDcWJuiU-66" value="กด spacebar&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;หน้า &quot;]&quot; 1 ครั้ง&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="234" y="740" width="163.5" height="45" as="geometry" />
+          <mxGeometry x="234" y="790" width="163.5" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="7TrNmhmVkbIryDcWJuiU-69" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7TrNmhmVkbIryDcWJuiU-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7TrNmhmVkbIryDcWJuiU-73" target="7TrNmhmVkbIryDcWJuiU-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7TrNmhmVkbIryDcWJuiU-73" value="กด spacebar&amp;nbsp;&lt;div&gt;หลัง&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;(&quot; 1 ครั้ง&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220.5" y="520" width="163.5" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="7TrNmhmVkbIryDcWJuiU-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="7TrNmhmVkbIryDcWJuiU-74" target="7TrNmhmVkbIryDcWJuiU-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7TrNmhmVkbIryDcWJuiU-74" value="กด spacebar&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;หน้า &quot;)&quot;1 ครั้ง&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220.5" y="582.5" width="163.5" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
