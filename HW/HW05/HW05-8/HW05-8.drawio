@@ -1,73 +1,106 @@
-<mxfile host="app.diagrams.net">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Greatest of Three Numbers" id="T7fLgyQF5VSGToSz7OCU">
-    <mxGraphModel dx="1000" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1313" dy="653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="start" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="_U8Scr_5c6hHnpxWBG9J-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="start" target="_U8Scr_5c6hHnpxWBG9J-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="start" value="Start" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="160" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="input" value="Input: num1, num2, num3" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="140" width="200" height="60" as="geometry" />
+        <mxCell id="end" value="End" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="160" y="1230" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="display" value="Display: num1, num2, num3" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="240" width="200" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="compare1" value="Is num1 &gt; num2 and num3?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="340" width="200" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="num1_greatest" value="The 1st Number is the greatest" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="480" width="220" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="compare2" value="Is num2 &gt; num1 and num3?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="340" width="200" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="num2_greatest" value="The 2nd Number is the greatest" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="480" width="220" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="num3_greatest" value="The 3rd Number is the greatest" style="shape=rectangle;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="620" width="220" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="end" value="End" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="180" y="740" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="edge1" edge="1" parent="1" source="start" target="input">
+        <mxCell id="_U8Scr_5c6hHnpxWBG9J-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_U8Scr_5c6hHnpxWBG9J-1" target="_U8Scr_5c6hHnpxWBG9J-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge2" edge="1" parent="1" source="input" target="display">
+        <mxCell id="_U8Scr_5c6hHnpxWBG9J-1" value="รับค่า num1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="150" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_U8Scr_5c6hHnpxWBG9J-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_U8Scr_5c6hHnpxWBG9J-3" target="_U8Scr_5c6hHnpxWBG9J-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge3" edge="1" parent="1" source="display" target="compare1">
+        <mxCell id="_U8Scr_5c6hHnpxWBG9J-3" value="รับค่า num2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="250" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_U8Scr_5c6hHnpxWBG9J-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_U8Scr_5c6hHnpxWBG9J-5" target="_U8Scr_5c6hHnpxWBG9J-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge4" edge="1" parent="1" source="compare1" target="num1_greatest">
+        <mxCell id="_U8Scr_5c6hHnpxWBG9J-5" value="รับค่า num3" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="340" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_U8Scr_5c6hHnpxWBG9J-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_U8Scr_5c6hHnpxWBG9J-8" target="_U8Scr_5c6hHnpxWBG9J-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_U8Scr_5c6hHnpxWBG9J-8" value="แสดง num1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="450" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_U8Scr_5c6hHnpxWBG9J-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_U8Scr_5c6hHnpxWBG9J-10" target="_U8Scr_5c6hHnpxWBG9J-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_U8Scr_5c6hHnpxWBG9J-10" value="แสดง&amp;nbsp;num2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="550" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_U8Scr_5c6hHnpxWBG9J-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_U8Scr_5c6hHnpxWBG9J-11" target="_U8Scr_5c6hHnpxWBG9J-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_U8Scr_5c6hHnpxWBG9J-11" value="แสดง&amp;nbsp;num3" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="640" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_U8Scr_5c6hHnpxWBG9J-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_U8Scr_5c6hHnpxWBG9J-13">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="80" y="410" as="sourcePoint" />
-            <mxPoint x="40" y="450" as="targetPoint" />
+            <mxPoint x="220" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="edge5" edge="1" parent="1" source="compare1" target="compare2">
+        <mxCell id="_U8Scr_5c6hHnpxWBG9J-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_U8Scr_5c6hHnpxWBG9J-13" target="_U8Scr_5c6hHnpxWBG9J-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_U8Scr_5c6hHnpxWBG9J-13" value="num1 &amp;gt; num2 และ num1 &amp;gt; num3" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="750" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_U8Scr_5c6hHnpxWBG9J-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_U8Scr_5c6hHnpxWBG9J-17" target="_U8Scr_5c6hHnpxWBG9J-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_U8Scr_5c6hHnpxWBG9J-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_U8Scr_5c6hHnpxWBG9J-17" target="_U8Scr_5c6hHnpxWBG9J-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_U8Scr_5c6hHnpxWBG9J-17" value="num2 &amp;gt; num1 และ num2 &amp;gt; num3" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="880" width="270" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_U8Scr_5c6hHnpxWBG9J-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_U8Scr_5c6hHnpxWBG9J-20" target="_U8Scr_5c6hHnpxWBG9J-26">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="800" y="790" />
+              <mxPoint x="800" y="1140" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="edge6" edge="1" parent="1" source="compare2" target="num2_greatest">
+        <mxCell id="_U8Scr_5c6hHnpxWBG9J-20" value="The 1st Number is the greatest among three" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="760" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_U8Scr_5c6hHnpxWBG9J-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_U8Scr_5c6hHnpxWBG9J-22" target="_U8Scr_5c6hHnpxWBG9J-26">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="360" y="450" as="sourcePoint" />
-            <mxPoint x="320" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="1120" />
+            </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="edge7" edge="1" parent="1" source="compare2" target="num3_greatest">
+        <mxCell id="_U8Scr_5c6hHnpxWBG9J-22" value="The 2nd Number is the greatest among three" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="890" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_U8Scr_5c6hHnpxWBG9J-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_U8Scr_5c6hHnpxWBG9J-24" target="_U8Scr_5c6hHnpxWBG9J-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge8" edge="1" parent="1" source="num1_greatest" target="end">
+        <mxCell id="_U8Scr_5c6hHnpxWBG9J-24" value="The 3rd Number is the greatest among three" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1020" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_U8Scr_5c6hHnpxWBG9J-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_U8Scr_5c6hHnpxWBG9J-26" target="end">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="edge9" edge="1" parent="1" source="num2_greatest" target="end">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="edge10" edge="1" parent="1" source="num3_greatest" target="end">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="_U8Scr_5c6hHnpxWBG9J-26" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="1120" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
