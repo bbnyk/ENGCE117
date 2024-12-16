@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
   <diagram name="Page-1" id="DynOSWMdqW3juHUYkreI">
-    <mxGraphModel dx="1909" dy="949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1105" dy="549" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -46,6 +46,9 @@
         <mxCell id="Oe-WGm68FH1lk6-HrSJV-12" value="แสดง&amp;nbsp;Number1 equal than Number2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="380" width="250" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="Oe-WGm68FH1lk6-HrSJV-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Oe-WGm68FH1lk6-HrSJV-14" target="Oe-WGm68FH1lk6-HrSJV-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Oe-WGm68FH1lk6-HrSJV-14" value="แสดง&amp;nbsp;Number1 lower than Number2" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="289" y="490" width="250" height="40" as="geometry" />
         </mxCell>
@@ -60,6 +63,9 @@
         </mxCell>
         <mxCell id="Oe-WGm68FH1lk6-HrSJV-19" value="เท็จ" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="400" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oe-WGm68FH1lk6-HrSJV-20" value="จบ" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="565" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
