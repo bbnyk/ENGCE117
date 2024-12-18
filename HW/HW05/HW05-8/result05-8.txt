@@ -1,0 +1,8 @@
+INPUT
+12 3 56
+
+OUTPUT
+1st Number = 12
+2nd Number = 3
+3rd Number = 56
+The 3rd Number is the greatest among three
