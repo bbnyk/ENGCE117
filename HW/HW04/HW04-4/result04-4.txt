@@ -1,1 +1,5 @@
+INPUT
+Enter H & W = 2 3
 
+OUTPUT
+Triagle Area = 3.0
