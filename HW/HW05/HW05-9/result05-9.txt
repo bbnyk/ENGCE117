@@ -1,0 +1,6 @@
+INPUT
+Input A Point : 2 3
+Input B Point : 4 5
+
+OUTPUT
+Mid Point of A and B is ( 3.0, 4.0 )
