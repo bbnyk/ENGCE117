@@ -4,7 +4,7 @@
 int main () {
 
     char num[ 10 ] ;
-    int binary = 0 ;
+    long long binary = 0 ;
 
     printf( "User Input : " ) ;
     scanf( "%s", num ) ;
@@ -16,28 +16,28 @@ int main () {
         binary *= 10000 ;
 
         if( num[ i ] == '0' ) {
-            binary += 0000 ;
+            binary += 0 ;
         }//end if
         if( num[ i ] == '1' ) {
-            binary += 0001 ;
+            binary += 1 ;
         }//end if
         if( num[ i ] == '2' ) {
-            binary += 0010 ;
+            binary += 10 ;
         }//end if
         if( num[ i ] == '3' ) {
-            binary += 0011 ;
+            binary += 11 ;
         }//end if
         if( num[ i ] == '4' ) {
-            binary += 0100 ;
+            binary += 100 ;
         }//end if
         if( num[ i ] == '5' ) {
-            binary += 0101 ;
+            binary += 101 ;
         }//end if
         if( num[ i ] == '6' ) {
-            binary += 0110 ;
+            binary += 110 ;
         }//end if
         if( num[ i ] == '7' ) {
-            binary += 0111 ;
+            binary += 111 ;
         }//end if
         if( num[ i ] == '8' ) {
             binary += 1000 ;
@@ -66,7 +66,7 @@ int main () {
 
     }//end for
 
-    printf( "binary : %d", binary ) ;
+    printf( "binary : %lld", binary ) ;
 
     return 0 ;
 }//end main
