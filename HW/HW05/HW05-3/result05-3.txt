@@ -2,4 +2,4 @@ INTPUT
 17
 
 OUTPUT
-Seventenn
+Seventeen
