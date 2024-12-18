@@ -1,0 +1,5 @@
+INPUT
+l o v e
+
+OUTPUT
+Result : e v o l
