@@ -1,1 +1,5 @@
+INPUT
+Input Days : 5
 
+OUTPUT
+5 days = 432000 seconds
