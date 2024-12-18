@@ -18,7 +18,7 @@ int main () {
     avg = sum / n ;
 
     printf( "Sum = %.0f\n", sum ) ;
-    printf( "Avg = %.2f\n", sum ) ;
+    printf( "Avg = %.2f\n", sum / n ) ;
 
     return 0 ;
 }//end main
