@@ -1,0 +1,12 @@
+INPUT
+Years : 2016
+
+OUTPUT
+February has 29 days
+
+
+INPUT
+Years : 2001
+
+OUTPUT
+February has 28 days
