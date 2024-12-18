@@ -1,1 +1,8 @@
+INPUT
+Input the Employees ID(Max. 10 chars): 123456
+Input the working hrs: 1000
+Salary amount/hr: 15000
 
+OUTPUT
+Employees ID = 123456
+Salary = U$ 15,000,000.00
