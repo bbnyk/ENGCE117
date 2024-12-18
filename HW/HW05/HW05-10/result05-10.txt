@@ -1,0 +1,5 @@
+INPUT
+Enter score : 56
+
+OUTPUT
+D+ !
