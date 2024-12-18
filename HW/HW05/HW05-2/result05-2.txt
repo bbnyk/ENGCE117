@@ -1,0 +1,7 @@
+INPUT
+Input[1] : 5
+Input[2] : 12
+Input[3] : 9
+
+OUTPUT
+12 9 5 
