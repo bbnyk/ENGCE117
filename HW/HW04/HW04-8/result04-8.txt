@@ -1,0 +1,5 @@
+INPUT
+User Input : 19
+
+OUTPUT
+binary : 11001
