@@ -1,0 +1,9 @@
+INPUT
+Enter value n : 3
+Enter value 1 : 12      
+Enter value 2 : 56 
+Enter value 3 : 7
+
+OUTPUT
+Sum = 75
+Avg = 25.00
